@@ -1,6 +1,13 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pdcast/components/*": ["src/components/*"],
+      "@pdcast/containers/*": ["src/containers/*"],
+      "@pdcast/screens/*": ["src/screens/*"],
+      "@pdcast/lib/*": ["src/lib/*"]
+    }
   }
 }
