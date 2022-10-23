@@ -1,2 +1,3 @@
-export * from './podcast';
-export * from './routes';
+export * from "./podcast";
+export * from "./redux";
+export * from "./routes";
